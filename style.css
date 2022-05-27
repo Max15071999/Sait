@@ -1,0 +1,287 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(images/body2.jpg);
+	background-attachment: fixed;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #9F0000;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #9F0000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img.border {
+	border: 6px solid #E1F1F6;
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+#wrapper {
+	width: 1200px;
+	margin: 0px auto;
+    background:#EBEBEB;
+}
+
+#wrapper-bgbtm {
+}
+
+/* Header */
+
+#header {
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+	margin-left: 20px;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+/* Search */
+
+#search {
+	height: 110px;
+	padding: 0;
+}
+
+#search form {
+	height: 50px;
+	padding-left: 20px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 150px;
+	padding: 6px 10px;
+	border: none;
+	background: #FFFFFF;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #7F7F81;
+}
+
+/* Menu */
+
+#menu {
+	width: 750px;
+	height: 50px;
+	margin: 40px 0px 0px 15px;
+	padding: 0px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin: 0px 2px 0px 0px;
+	padding: 5px 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	border: none;
+}
+
+#menu .current_page_item a {
+	background: #F2AE30;
+	color: #000000;
+}
+
+#menu a:hover {
+	background: #F2AE30;
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Page */
+
+#page {
+	width: 1200px;
+}
+
+/* Content */
+#content {
+	float: left;
+	width: 950px;
+	padding: 60px 0px 0px 15px;
+}
+
+.post {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.post .title {
+	letter-spacing: -1px;
+}
+
+.post .title a {
+	border: none;
+	color: #F2AE30;
+}
+
+.post .meta {
+	padding-bottom: 5px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 10px 0px 0px 0px;
+}
+
+.links {
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 210px;
+	font-size: 12px;
+	margin-top: -186px;
+}
+
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 20px;
+	padding-bottom: 30px;
+}
+
+#sidebar li li {
+	line-height: 35px;	
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 29px;
+	margin-bottom: 20px;
+	padding: 11px 0px 0px 30px;
+	background: url(images/img02.gif) no-repeat left top;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 20px 20px 20px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+/* Footer */
+
+.shell { margin: 0 auto; width: 1000px;}
+
+#footer{  height: 247px; padding-top: 32px;  }
+
+#footer h4 { color: #fff; font-size: 15px; font-weight: bold; text-transform: uppercase; margin-top: -10px; }
+#footer { background: url(images/footer.png) repeat-x 0 0;}
+
+#footer .contact-widget p { color: #4a4949; padding-bottom: 12px; font-size: 13px;  line-height: 14px; padding-left: 28px; }
+#footer .contact-widget p.address-ico { background: url(images/address-ico.png) no-repeat 0 0; width:150px; } 
+#footer .contact-widget p.phone-ico { background: url(images/phone-ico.png) no-repeat 0 0; }
+
+#footer p.copy { float: right; color: #353535;margin-top: 57px; }
+
